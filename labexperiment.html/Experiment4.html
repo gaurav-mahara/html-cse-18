@@ -3,64 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FORM</title>
+    <title>Hotel Booking Form</title>
 </head>
 <body>
-    <form action="">
+    <form action="" width="60%">
         <fieldset>
-            <legend>HTML FORM</legend>
-        <label for="">Name</label>
-        <input type="text" placeholder="Enter your Name"><br><br>
+        <h1 align="center">Hotel Room Booking Form</h1>
+        <br>
 
-        <label for="">Mobile</label>
-        <input type="tel" placeholder="Enter your mobile" minlength="10 " maxlength="10"><br><br>
+        <div align="center">
+        <label for="">Full Name:</label>
+        <input type="text" name="" id="" placeholder="">
+        </div>
+        <br>
 
-        <label for="">Email</label>
-        <input type="email" placeholder="Enter your email"><br><br>
+        <div align="center">
+        <label for="">Email:</label>
+        <input type="email" name="" id="" placeholder="">
+        </div>
+        <br>
 
-        <label for="">Age</label>
-        <input type="number" name ="" id=""><br><br>
+        <div align="center">
+            <label for="">Phone:</label>
+            <input type="tel" name="" id="">
+        </div>
+        <br>
 
-        <label for=""DDJ></label>
-        <input type="date" name="" id=""><br><br>
+        <div align="center">
+            <label for="">Check-in-Date</label>
+            <input type="date" name="" id="">
+         </div>
+        <br>
 
-        <label for="">Distance</label>
-        <input type="range" name="" id="" value="30"><br><br>
-
-        <label for="">Subject</label>
-        <input type="checkbox" name="" id="" checked >Maths
-        <input type="checkbox" name="" id="">DS<br><br>
-
-        <label for="">Branch</label>
-        <input type="branch">
-        <datalist id="branch">
-            <option value="CSE"></option>
-            <option value="ECE"></option>
-            <option value="CSEDS"></option>
-            <option value="CSE-AIML"></option>
-
-
-        </datalist><br><br>
-
-        <label for="">City</label>
-        <select name="" id="">
-            <option value="">Select City</option>
-            <option value="">Bangalore</option>
-            <option value="">Chennai</option>
-            <option value="">Hyderabad</option>
-            <option value="">Pune</option>
-        </select><br><br>
-
-        <label for="">Address</label>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Enter your address"></textarea><br><br>
-
-        <button type="button">Verify me </button>
-        <input type="button" value="Unlock me ">
-
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+        <div align="center">
+            <label for="">Check-out-Date</label>
+            <input type="date" name="" id="">
+        </div>
+        <br>
+        <div align="center">
+            <label for="">Room Type</label>
+            <select name="" id="">
+                <option value="">Single Room</option>
+                <option value="">Double Room</option>
+                <option value="">Triple Room</option>
+            </select>
+        </div>
+        <br>
+        <div align="center">
+            <label for="">Number of Guests</label>
+            <input type="number">
+        </div>
+        <br>
+        <div align="center">
+            <label for="">Spaical Request</label>
+            <br>
+            <textarea name="" id=""></textarea>
+        </div>
+        <br>
+        <div align="center">
+        <button >Book Now</button>
+        <input type="reset" value="Reset Form" > 
+        </div>
         </fieldset>
     </form>
-    
 </body>
 </html>
+
