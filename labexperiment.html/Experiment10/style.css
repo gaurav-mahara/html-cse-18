@@ -6,7 +6,7 @@
 body {
  font-family: "Segoe UI", Arial, sans-serif;
  background: #fafafa;
- }
+}
 .navbar {
  background: #111;
  color: white;
@@ -19,7 +19,7 @@ body {
 .logo {
  font-size: 1.7rem;
  font-weight: 700;
- }
+}
 .nav-center {
  display: flex;
  gap: 2rem;
@@ -29,7 +29,7 @@ body {
  text-decoration: none;
  font-size: 1.05rem;
  transition: 0.3s;
- }
+}
 .nav-center a:hover {
  color: #fff;
 }
@@ -42,14 +42,14 @@ body {
  text-decoration: none;
  font-size: 1.05rem;
 }
-.hamburger {
- display: none;
+.hamburger { 
+display: none;
  font-size: 2rem;
  cursor: pointer;
 }
 #menu-toggle {
  display: none;
- }
+}
 @media(max-width: 768px) {
  .navbar {
  justify-content: space-between;
@@ -61,8 +61,8 @@ body {
  transform: translateX(-50%);
  font-size: 2rem;
  }
- .nav-center {
- display: none;
+ .nav-center { 
+    display: none;
  width: 100%;
  background: #333;
  flex-direction: column;
@@ -74,13 +74,12 @@ body {
  z-index: 9;
  border-top: 1px solid #444;
  }
- #menu-toggle:checked ~ .nav-center{
-    display: flex;
-    gap: 1.2rem; 
-     .nav-right {
+ #menu-toggle:checked ~ .nav-center {
  display: flex;
- margin-left: auto;
+ gap: 1.2rem;
  }
-} 
-
+ .nav-right {
+ display: flex;
+ margin-left:auto;
+ }
 }
